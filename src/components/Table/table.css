@@ -1,0 +1,27 @@
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    border: 1px solid black;
+  }
+  
+  .filter-input {
+    border: 1px solid black;
+    padding: 8px;
+    margin: 12px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .table th, .table td {
+      font-size: 14px;
+    }
+  }
