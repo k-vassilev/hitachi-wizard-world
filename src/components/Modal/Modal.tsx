@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from '../Form/Form';
 import { IHouseData } from '../../hooks/useHouseData';
+import "./modal.css"
 
 interface ModalProps {
   handleClose: () => void;
